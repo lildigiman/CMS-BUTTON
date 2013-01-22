@@ -1,0 +1,14 @@
+{
+	"name": "CMS Quicklink",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Quickly access current classes.",
+	"browser_action": {
+		"default_icon": "icon.png",
+	"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": ["tab.js"]
+	},
+	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
